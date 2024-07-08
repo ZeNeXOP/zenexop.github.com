@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="main.html">
+                <img src="logo.png">
+            </a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="textbox">
+            <h1>World's Best University</h1>
+            <p>What bird so sings, yet so does wail?
+                <br>O 'tis the ravish'd nightingale.
+                <br>Jug, jug, jug, jug, tereu! she cries,
+            </p>
+            <a class="trigger" href="know-more">Place to Recite More</a>
+            <div class="container">
+                <hr class="style-line1">
+                <hr class="style-line2">
+            </div>
+        </div>
+    </section>
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>All the courses we offer in the most poetic form</p>
+        <div class="row">
+            <div class="inter">
+                <h3>Intermediate</h3>
+                <p>Coaching towards achieving what you'd call your aim, unlike a dream thats dreamt, an aim is meant to be achieved</p>
+            </div>
+            <div class="degree">
+                <h3>Degree</h3>
+                <p>What you need for grabbing those real world skills. what you need for working towards a better future, here comes our degree to make you future ready.</p>
+            </div>
+            <div class="graduation">
+                <h3>Post Graduation</h3>
+                <p>What you need for grabbing those real world skills. what you need for working towards
+            </div>
+        </div>
+    </section>
+    <section class="our-global-campus">
+        <h1>Our Global Campus</h1>
+        <p>
+            Our reach outreaches your destinations, your dreams, your aims to be more precise
+        </p>
+        <div class="global-photos">
+            <div class="london">
+            <a href="">
+                <img src="london.png">
+                <div class="layer1">
+                    <h3>LONDON</h3>
+                </div>
+            </a>
+            </div>
+            <div class="new-york">
+            <a href="">
+                <img src="newyork.png">
+                <div class="layer2">
+                    <h3>NEW YORK</h3>
+                </div>
+            </a>
+            </div>
+            <div class="washington">
+            <a href="">
+                <img src="washington.png">
+                <div class="layer3">
+                    <h3>WASHINGTON DC</h3>
+                </div>
+            </a>
+            </div>
+        </div>
+    </section>
+    <section class="our-facilities">
+        <h1>Our Facilities</h1>
+        <p>what we have to offer, is what we do to get through to you</p>
+        <div class="facilities-photos">
+            <div class="library">
+                <img src="library.png">
+                <h2>World Class Library</h2>
+                <p>A  vibrant hub of knowledge, where curious minds converge to explore, learn, and grow amidst a vast collection of books, resources, and innovative technologies. A beacon of intellectual freedom, fostering creativity, critical thinking, and lifelong learning for a diverse community of scholars and enthusiasts</p>
+            </div>
+            <div class="play-ground">
+                <img src="basketball.png">
+                <h2>Largest Play Ground</h2>
+                <p>A sprawling oasis of fun and adventure, where laughter and excitement know no bounds in the world's largest playground, featuring endless thrills, games, and attractions for kids of all ages</p>
+            </div>
+            <div class="tasty-healthyfood">
+                <img src="cafeteria.png">
+                <h2>Tasty and Healthy Food</h2>
+                <p>Savoring flavors from around the world at our vibrant cafeteria, where every bite is a delight..</p>
+            </div>
+
+        </div>
+    </section>
+    <section class="reviews">
+        <div>
+            <div>
+                <img src="user1.jpg">
+                <p>Empowering minds and shaping futures, World's Biggest University is a beacon of excellence in education...</p>
+                <h2>Chrstine Berkley</h2>
+            </div>
+            <div>
+                <img src="user2.jpg">
+                <p>Empowering minds and shaping futures, World's Biggest University is a beacon of excellence</p>
+                <h2>David Byer</h2>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
